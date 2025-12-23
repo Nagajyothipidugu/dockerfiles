@@ -1,4 +1,5 @@
-FROM almalinux:9 
+ARG vesrion
+FROM almalinux:${version:-9}
 
 ENV  COURSE="Devops" \
      DURATION="120HRS" 
