@@ -1,4 +1,4 @@
-ARG vesrion
+ARG version
 FROM almalinux:${version:-9}
 
 ENV  COURSE="Devops" \
